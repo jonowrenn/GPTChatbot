@@ -13,7 +13,7 @@ pinned: false
 A specialized AI study tool for computer science students, built with **Gradio** and **GPT-4o mini**.
 
 **Live demo on Hugging Face Spaces:**
-👉 [https://huggingface.co/spaces/jonowrenn/gpt-chatbot](https://huggingface.co/spaces/jonowrenn/gpt-chatbot)
+👉 [https://huggingface.co/spaces/jonowrenn/cs-study-assistant](https://huggingface.co/spaces/jonowrenn/cs-study-assistant)
 
 > ⚠️ The live demo requires an OpenAI API key set as a Space Secret.
 > To run without limits, clone the repo and add your own key.
