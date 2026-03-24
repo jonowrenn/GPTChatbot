@@ -1,13 +1,3 @@
----
-title: CS Study Assistant
-emoji: 🎓
-colorFrom: indigo
-colorTo: blue
-sdk: gradio
-app_file: app.py
-pinned: false
----
-
 # 🎓 CS Study Assistant
 
 A specialized AI study tool for computer science students, built with **Gradio** and **GPT-4o mini**.
@@ -16,7 +6,7 @@ A specialized AI study tool for computer science students, built with **Gradio**
 👉 [https://huggingface.co/spaces/jonowrenn/cs-study-assistant](https://huggingface.co/spaces/jonowrenn/cs-study-assistant)
 
 > ⚠️ The live demo requires an OpenAI API key set as a Space Secret.
-> To run without limits, clone the repo and add your own key.
+> To run locally, clone the repo and add your own key.
 
 ---
 
@@ -72,7 +62,7 @@ Then open [http://localhost:7860](http://localhost:7860) in your browser.
 
 ## Deploy to Hugging Face Spaces
 
-1. Push this repo to a Hugging Face Space (Gradio SDK)
+1. Push the repo files to a Hugging Face Space (Gradio SDK)
 2. Add your `OPENAI_API_KEY` under **Settings → Repository Secrets**
 3. The app launches automatically
 
