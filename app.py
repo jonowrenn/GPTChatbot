@@ -115,9 +115,6 @@ with gr.Blocks(theme="soft", title="CS Study Assistant") as demo:
             lines=3,
             scale=1,
         ),
-        retry_btn="↻ Regenerate",
-        undo_btn="⟲ Undo",
-        clear_btn=None,
     )
 
     # Update mode info blurb when mode changes

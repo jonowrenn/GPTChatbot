@@ -1,6 +1,6 @@
 ---
-title: GPT Chatbot
-emoji: 💬
+title: CS Study Assistant
+emoji: 🎓
 colorFrom: indigo
 colorTo: blue
 sdk: gradio
@@ -8,25 +8,30 @@ app_file: app.py
 pinned: false
 ---
 
-# GPT Chatbot
+# 🎓 CS Study Assistant
 
-A conversational AI chatbot built with **Gradio** and the **OpenAI API**.
+A specialized AI study tool for computer science students, built with **Gradio** and **GPT-4o mini**.
 
 **Live demo on Hugging Face Spaces:**
 👉 [https://huggingface.co/spaces/jonowrenn/gpt-chatbot](https://huggingface.co/spaces/jonowrenn/gpt-chatbot)
 
-> ⚠️ Note: The live demo requires an OpenAI API key set as a Space Secret.
-> To run without limits, clone the repo and use your own key.
+> ⚠️ The live demo requires an OpenAI API key set as a Space Secret.
+> To run without limits, clone the repo and add your own key.
 
 ---
 
 ## Features
 
-- Chat with GPT-3.5-turbo in a clean Gradio interface
-- Optional topic dropdown to guide the assistant (CS topics, general, etc.)
-- Remembers the last 10 turns of conversation
-- Regenerate / undo last message buttons
-- Works on Hugging Face Spaces and locally
+- **6 expert modes**, each with a tailored system prompt:
+  - **General** — friendly, concise assistant for any question
+  - **Explain a Concept** — structured explanations with intuition, mechanics, and examples
+  - **Code Review** — senior-engineer-style review: bugs, edge cases, style, complexity
+  - **Debug Help** — step-by-step root cause analysis
+  - **ML Theory** — rigorous ML/math explanations for students who know linear algebra and calculus
+  - **Interview Prep** — coding and conceptual interview coaching with complexity analysis
+- Powered by **GPT-4o mini** for fast, high-quality responses
+- Multi-turn conversation memory (last 10 turns)
+- Compatible with Gradio 4.x and 5.x
 
 ---
 
@@ -69,7 +74,7 @@ Then open [http://localhost:7860](http://localhost:7860) in your browser.
 
 1. Push this repo to a Hugging Face Space (Gradio SDK)
 2. Add your `OPENAI_API_KEY` under **Settings → Repository Secrets**
-3. The app will launch automatically
+3. The app launches automatically
 
 ---
 
@@ -77,4 +82,4 @@ Then open [http://localhost:7860](http://localhost:7860) in your browser.
 
 - Python
 - [Gradio](https://gradio.app) — UI framework
-- [OpenAI Python SDK](https://github.com/openai/openai-python) — GPT-3.5-turbo
+- [OpenAI Python SDK](https://github.com/openai/openai-python) — GPT-4o mini
